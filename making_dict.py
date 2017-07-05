@@ -6,7 +6,7 @@ def make_dict(arr1, arr2):
 
     if (len(arr1) >= len(arr2)):
 
-        for i in range (0, len(arr1)):
+        for i in range (0, len(arr2)):
             new_dict[arr1[i]] = arr2[i]
     
     else:
