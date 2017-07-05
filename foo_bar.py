@@ -6,7 +6,7 @@ def foo_bar ():
     for i in range (100, 100001):
         prime = True
 
-        for k in range (i/2, 1, -1):
+        for k in range (2, i/2):
             if (i%k == 0):
                 prime = False
             
