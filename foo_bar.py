@@ -10,7 +10,7 @@ def foo_bar ():
             if (i%k == 0):
                 prime = False
             
-        if (prime == True):
+        if  prime:
             print i, 'foo'
 
         if ((i/x)==x):
